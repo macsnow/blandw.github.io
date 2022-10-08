@@ -2,7 +2,7 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default defineUserConfig({
-  base: '/vuepress-starter/',
+  //base: '/vuepress-starter/',
   lang: 'zh-CN',
   title: 'Java技术栈',
   description: 'Spring Boot Spring Cloud',
