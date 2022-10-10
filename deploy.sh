@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'auto deploy documents'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:macsnow/macsnow.github.io.git master:gh-pages
