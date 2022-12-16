@@ -17,14 +17,7 @@ export default defineUserConfig({
             children: [
               '/pages/01_java/history/todo'
             ]
-          },
-          {
-            text: '面试',
-            children: [
-              '/pages/01_java/interview/todo'
-            ]
-          }
-          ,{
+          },{
             text: '新特性',
             children: [
               '/pages/01_java/new_features/todo'
@@ -44,24 +37,17 @@ export default defineUserConfig({
             children: [
               '/pages/01_java/library/todo'
             ]
+          },{
+            text: '面试',
+            children: [
+              '/pages/01_java/interview/todo'
+            ]
           }
         ]
       },
       {
         text: '数据库',
         children: [
-          {
-            text: 'ElasticSearch',
-            children: [
-              '/pages/02_data_storage/elasticsearch/es_guide',
-            ]
-          },
-          {
-            text: 'MongoDB',
-            children: [
-              '/pages/02_data_storage/mongodb/mongodb_guide',
-            ]
-          },
           {
             text: 'MySQL',
             children: [
@@ -72,6 +58,18 @@ export default defineUserConfig({
             text: 'Redis',
             children: [
               '/pages/02_data_storage/redis/redis_guide',
+            ]
+          },
+          {
+            text: 'ElasticSearch',
+            children: [
+              '/pages/02_data_storage/elasticsearch/es_guide',
+            ]
+          },
+          {
+            text: 'MongoDB',
+            children: [
+              '/pages/02_data_storage/mongodb/mongodb_guide',
             ]
           }
         ]
@@ -95,7 +93,28 @@ export default defineUserConfig({
       },
       {
         text: '源码分析',
-        link: '/pages/04_source_code_analyze/todo'
+        children: [
+          {
+            text: 'JDK',
+            children: [
+              '/pages/04_source_code_analyze/jdk/arraylist',
+              '/pages/04_source_code_analyze/jdk/linkedlist',
+              '/pages/04_source_code_analyze/jdk/hashmap',
+              '/pages/04_source_code_analyze/jdk/aqs'
+            ]
+          },{
+            text: 'MyBatis',
+            children: [
+              '/pages/04_source_code_analyze/mybatis/mybatis'
+            ]
+          },{
+            text: 'Spring',
+            children: [
+              '/pages/04_source_code_analyze/spring/spring',
+              '/pages/04_source_code_analyze/spring/spring_boot'
+            ]
+          }
+        ]
       },
       {
         text: '架构',
