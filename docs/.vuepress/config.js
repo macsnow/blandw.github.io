@@ -36,25 +36,25 @@ export default defineUserConfig({
           {
             text: 'ElasticSearch',
             children: [
-              '/pages/数据存储/ElasticSearch/初识ES',
+              '/pages/data_storage/elasticsearch/es_guide',
             ]
           },
           {
             text: 'MongoDB',
             children: [
-              '/pages/数据存储/MongoDB/MongoDB基本使用',
+              '/pages/data_storage/mongodb/mongodb_guide',
             ]
           },
           {
             text: 'MySQL',
             children: [
-              '/pages/数据存储/MySQL/数据库性能优化',
+              '/pages/data_storage/mysql/mysql_guide',
             ]
           },
           {
             text: 'Redis',
             children: [
-              '/pages/数据存储/Redis/Redis基本使用',
+              '/pages/data_storage/redis/redis_guide',
             ]
           }
         ]
