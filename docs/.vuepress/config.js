@@ -126,7 +126,29 @@ export default defineUserConfig({
       },
       {
         text: '编程基础',
-        link: '/pages/07_program_basic/todo'
+        children: [
+          {
+            text: '网络基础',
+            children: [
+              '/pages/07_program_basic/network/todo'
+            ]
+          },{
+            text: '操作系统',
+            children: [
+              '/pages/07_program_basic/os/todo'
+            ]
+          },{
+            text: '算法',
+            children: [
+              '/pages/07_program_basic/algorithm/todo'
+            ]
+          },{
+            text: '数据结构',
+            children: [
+              '/pages/07_program_basic/data_structure/todo'
+            ]
+          }
+        ]
       },
       {
         text: '工具',
