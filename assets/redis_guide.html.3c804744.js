@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-797d5665","path":"/pages/02_data_storage/redis/redis_guide.html","title":"Redis Quickly Guide","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1671180788000,"contributors":[{"name":"macsnow","email":"cuitwubo@gmail.com","commits":1}]},"filePathRelative":"pages/02_data_storage/redis/redis_guide.md"}');export{e as data};

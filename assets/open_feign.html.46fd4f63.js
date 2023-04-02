@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-302f04cc","path":"/pages/03_framework/spring_cloud/open_feign.html","title":"OpenFeign","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1671180788000,"contributors":[{"name":"macsnow","email":"cuitwubo@gmail.com","commits":1}]},"filePathRelative":"pages/03_framework/spring_cloud/open_feign.md"}');export{e as data};
