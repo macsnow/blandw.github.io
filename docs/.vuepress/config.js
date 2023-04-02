@@ -122,7 +122,38 @@ export default defineUserConfig({
       },
       {
         text: '前端',
-        link: '/pages/06_front_end/todo'
+        children: [
+          {
+            text:'发展历史',
+            link:'/pages/06_front_end/hist.md'
+
+          },{
+           text: '基础',
+           children: [
+            '/pages/06_front_end/base/css/flex.md',
+            '/pages/06_front_end/base/html/summary.md',
+            '/pages/06_front_end/base/javascript/summary.md'
+           
+           ]
+          },{
+            text: '框架',
+            children: [
+              '/pages/06_front_end/framework/react/basic.md',
+              '/pages/06_front_end/framework/vue/basic.md'
+            ]
+          },{
+            text: '小程序',
+            children:[
+              '/pages/06_front_end/wx_mini_programe/basic.md'
+            ]
+          },{
+            text: '其他',
+            children:[
+              '/pages/06_front_end/base/javascript/es6.md',
+              '/pages/06_front_end/base/javascript/typescript.md',
+              '/pages/06_front_end/base/ps/basic.md'
+            ]
+          }]
       },
       {
         text: '编程基础',
@@ -168,7 +199,13 @@ export default defineUserConfig({
       },
       {
         text: '读书',
-        link: '/pages/12_reading/todo'
+        children: [{
+          text: '书单',
+          children: [
+            '/pages/12_reading/book_list'
+          ]
+        }
+        ]
       },
       {
         text: '随笔',
